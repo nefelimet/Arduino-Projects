@@ -41,3 +41,11 @@ void Thermistor::printData(){
   Serial.print(findTemperature() - 273);
   Serial.println(" C.");
 }
+
+float Thermistor::simpleFilter(int times){
+  float sum = 0;
+  for (int i=0; i<times; i++){
+    sum += findTemperature();
+  }
+  return sum / times;
+}
