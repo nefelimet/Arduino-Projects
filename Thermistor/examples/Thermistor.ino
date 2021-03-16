@@ -1,3 +1,5 @@
+//This example doesn't use the library, but has all the function here.
+
 //The thermistor's nominal value (resistance at 25 degrees Celsius) in Kohms.
 #define Rref 100
 
