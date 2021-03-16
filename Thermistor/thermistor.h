@@ -21,10 +21,10 @@ private:
   double C;
   double D;
 
-  //Reference resistance, that is the thermistor's nominal resistance, found in the datasheet
+  //Reference resistance in Kohms, that is the thermistor's nominal resistance, found in the datasheet
   float Rref;
 
-  //Resistance R connected in series to thermistor
+  //Resistance R in Kohms connected in series to thermistor
   float R;
 
   //Analog input pin
