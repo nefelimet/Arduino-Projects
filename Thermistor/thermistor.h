@@ -12,6 +12,7 @@ public:
   float measureResistance();
   float findTemperature();
   void printData();
+  float simpleFilter(int times);
 
 private:
   //Variables A, B, C, D are the thermistor's constants according to the datasheet.
